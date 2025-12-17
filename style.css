@@ -1,6 +1,6 @@
 :root {
-    --green-dark: #1A3A30; /* Exact color from footer/buttons */
-    --beige-bg: #F3E5DC; /* Exact color from Nav/Gifting section */
+    --green-dark: #1A3A30; 
+    --beige-bg: #F3E5DC;
     --text-black: #111111;
     --text-grey: #444444;
     --gold: #D4AF37;
@@ -93,13 +93,11 @@ em { font-style: italic; font-weight: 600; }
 .btn-green { background-color: var(--green-dark); color: white; }
 .center-btn-wrapper { text-align: center; }
 
-/* === 7. Recently Viewed === */
 .bg-pale { background-color: #FDF8F5; padding: 60px 0; }
 .red-dot { color: red; font-size: 1.5rem; }
 .product-grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 30px; }
 .product-card.simple h4 { font-size: 0.85rem; font-weight: 600; font-family: var(--font-body); margin: 10px 0 5px; }
 
-/* === 8. Gift Notes === */
 .gift-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 30px; }
 .gift-col img { height: 100%; object-fit: cover; }
 .gift-grid-right { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
@@ -109,7 +107,6 @@ em { font-style: italic; font-weight: 600; }
     background: white; border: 1px solid var(--text-black); padding: 10px 20px; font-weight: 600; font-size: 0.8rem; cursor: pointer; white-space: nowrap;
 }
 
-/* === 9. Split Promo === */
 .split-promo { display: grid; grid-template-columns: 1fr 1fr; height: 500px; }
 .promo-box { position: relative; overflow: hidden; }
 .promo-box img { width: 100%; height: 100%; transition: transform 0.5s; }
@@ -118,13 +115,12 @@ em { font-style: italic; font-weight: 600; }
 .promo-content h2 { font-size: 3rem; margin-bottom: 20px; line-height: 1.2; text-shadow: 0 2px 10px rgba(0,0,0,0.3); }
 .btn-dark-overlay { background: rgba(0,0,0,0.6); color: white; backdrop-filter: blur(5px); }
 
-/* === 10. Collection Grid === */
 .collection-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 15px; margin-top: 40px; }
 .col-item { text-align: center; }
 .col-item img { margin-bottom: 10px; height: 200px; object-fit: cover; }
 .col-item h4 { font-family: var(--font-body); font-weight: 600; text-decoration: underline; }
 
-/* === 11. Gifts That Celebrate === */
+/*Gifts That Celebrate === */
 .bg-beige { background-color: var(--beige-bg); }
 .section-sub { text-align: center; color: #666; margin-bottom: 40px; }
 .occasion-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px; }
@@ -133,14 +129,14 @@ em { font-style: italic; font-weight: 600; }
 .occ-text h3 { font-size: 1.1rem; margin-bottom: 10px; letter-spacing: 1px; }
 .occ-text p { font-size: 0.9rem; color: #666; margin-bottom: 20px; line-height: 1.6; }
 
-/* === 12. Ethos === */
+/* Ethos === */
 .ethos-split { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
 .ethos-img img { height: 500px; object-fit: cover; }
 .tiny-label { font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: #666; display: block; margin-bottom: 20px; }
 .ethos-text h2 { font-size: 3.5rem; margin-bottom: 30px; line-height: 1.2; }
 .ethos-text p { color: #555; max-width: 500px; margin-bottom: 30px; }
 
-/* === 13. Trend Section === */
+/* Trend Section === */
 .bg-gradient-beige { background: linear-gradient(to right, #fdfbf9, #f4e3d7); padding: 80px 0; }
 .trend-flex { display: flex; align-items: center; gap: 50px; }
 .trend-img { flex: 1; }
@@ -150,13 +146,13 @@ em { font-style: italic; font-weight: 600; }
 .icon-box { text-align: center; font-size: 0.8rem; }
 .icon-box i { font-size: 1.5rem; display: block; margin: 0 auto 10px; color: var(--green-dark); }
 
-/* === 14. Reviews === */
+/* Reviews === */
 .review-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 40px; }
 .review-card img { height: 250px; width: 100%; object-fit: cover; margin-bottom: 15px; }
 .stars { color: var(--text-black); letter-spacing: 2px; margin-bottom: 10px; }
 .author { display: block; margin-top: 15px; font-weight: 600; font-size: 0.9rem; }
 
-/* === 15. Footer === */
+/* Footer === */
 .main-footer { background-color: var(--green-dark); color: white; padding: 80px 0 30px; }
 .text-white { color: white; }
 .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; }
@@ -166,7 +162,7 @@ em { font-style: italic; font-weight: 600; }
 .footer-links a:hover { opacity: 1; padding-left: 5px; }
 
 
-/* === MOBILE RESPONSIVE === */
+/*  MOBILE RESPONSIVE  */
 @media (max-width: 768px) {
     .container { padding: 0 20px; }
     
